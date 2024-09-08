@@ -1,0 +1,51 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    top: 0 ;
+    margin-left: -30px;
+    
+}
+
+.navbar img{
+    height: 30px;
+    border-radius: 50%;
+}
+.navbar a img:hover{
+    background-color: silver;
+}
+
+.navbar-logo h1 {
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin:0px 70px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        
+    }
+}

@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
             <ul className="navbar-links">
                 <a href="https://github.com/hariom-hub/MEDPREDICT_AI" target='blank'><img src="./images/GitHub.png" alt="Source Code" /></a>
-                <li><button><a href="https://medicoai-gndd.onrender.com/" target='blank'>Let's Predict</a></button></li>
+                <li><button><a href="https://medicoai-gndd.onrender.com/" >Let's Predict</a></button></li>
             </ul>
         </nav>
     );
